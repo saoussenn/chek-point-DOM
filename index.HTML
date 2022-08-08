@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Cart</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.CSS" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Shopping</a>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="items">
+        <div class="Item">
+          <button class="like"><i class="fa fa-heart fa-2x"></i></button>
+          <img src="montre-quartz-guess-black-black-black-c1001g5.jpg" alt="Guess" />
+          <p class="description">
+            Guess <br />
+            MONTRE QUARTZ 
+          </p>
+          <div class="quantity">
+            <button class="minus-btn">
+              <img src="minus-symbol-button.svg" alt="minus sign" />
+            </button>
+            <input type="text" class="quantity" value="1" />
+            <button class="plus-btn">
+              <img src="plus-symbol-button.svg" alt="plus sign" />
+            </button>
+          </div>
+          <p class="price">500.00</p>
+          <button class="delete">X</button>
+        </div>
+        <div class="Item">
+          <button class="like"><i class="fa fa-heart fa-2x"></i></button>
+          <img src="https://assets.laboutiqueofficielle.com/w_1100,q_auto,f_auto/media/products/2022/08/01/none_331209_MS327CTB_20220802T151611_01.jpg" alt="adidas running shoes" />
+          <p class="description">
+            
+            NEW BALANCE <br />
+             Baskets MS327CTB Black
+          </p>
+          <div class="quantity">
+            <button class="minus-btn">
+              <img src="minus-symbol-button.svg" alt="minus sign" />
+            </button>
+            <input type="text" class="Quant" value=" 1" />
+            <button class="plus-btn">
+              <img src="plus-symbol-button.svg" alt="plus sign" />
+            </button>
+          </div>
+          <p class="price" >350.00</p>
+          <button class="delete">X</button>
+        </div>
+        <div class="Item">
+          <button class="like"><i class="fa fa-heart fa-2x"></i></button>
+          <img src="tapis-de-course-synerfit-20cv-14km-h-auto-inclinaison-modele-leopard.jpg" alt="tapis" />
+          <p class="description">TAPIS DE COURSE SYNERFIT LEOPARD</p>
+          <div class="quantity">
+            <button class="minus-btn">
+              <img src="minus-symbol-button.svg" alt="minus sign" />
+            </button>
+            <input type="text" class="quant" value=" 1" />
+            <button class="plus-btn">
+              <img src="plus-symbol-button.svg" alt="plus sign" />
+            </button>
+          </div>
+          <p class="price">1900.00</p>
+          <button class="delete">X</button>
+        </div>
+      </div>
+      <div id="total-price">
+        <p>Total Price:</p>
+        <input type="text" id="finalPrice" value="1804" />
+      </div>
+    </main>
+    <footer>© 2022.GOMYCODE.</footer>
+
+    <h1 id="title-ala">MY workshop DOM(Saoussen Adhaiem)</h1>
+    <script src="s.js"></script>
+  </body>
+</html>
